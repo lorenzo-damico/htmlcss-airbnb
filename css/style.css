@@ -3,3 +3,14 @@
   margin: 0;
   border: 0;
 }
+
+.sfondo {
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+}
+
+#roma {
+  background-image: url(../img/roma.jpg);
+}
