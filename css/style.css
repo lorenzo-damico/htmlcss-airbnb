@@ -5,10 +5,27 @@
 }
 
 .sfondo {
+  position: relative;
   background-repeat: no-repeat;
   background-size: cover;
   width: 100vw;
   height: 100vh;
+}
+
+.layover {
+  width: 100%;
+  height: 100%;
+  background-color: rgba(0, 0, 0, 0.5);
+}
+
+.titolo {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%,-50%);
+  font-size: 80px;
+  color: rgb(255, 255 , 255);
+  text-shadow: 4px 2px 3px rgb(0, 0, 0);
 }
 
 #roma {
